@@ -40,4 +40,9 @@ Inside the Users.js,
 - iterate over the state and for each user render the User component
 - User component should display all the info for the user
 
+BONUS:
+
+- Add a delete button inside User.js component: When this button is pressed delete the user's document from the database
+- Add edit button inside User.js, this allows user to edit a certain user's details and then they can confirm the edit which edits the document in the database too
+
 ### Happy hacking :'D
