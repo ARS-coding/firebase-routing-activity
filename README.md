@@ -14,10 +14,10 @@ This exercise will have 2 parts, we advice doing them in order(It will make thin
 
 Looking at the components folder, for each component create a route in the App.js and a Link in the Nav.js :
 
-- Home should be accesed using /
-- About should be accesed using /about
-- ContactUs should be accesed using /contact-us
-- Users should be accesed using /Users
+- Home should be accesed using `/`
+- About should be accesed using `/about`
+- ContactUs should be accesed using `/contact-us`
+- Users should be accesed using `/users`
 - Nav should always be displayed at all the routes
 
 ## Part 2: Firebase
