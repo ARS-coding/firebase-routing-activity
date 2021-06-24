@@ -22,8 +22,8 @@ Looking at the components folder, for each component create a route in the App.j
 
 ## Part 2: Firebase
 
-Setup the Firebase firestore and add your configs to the firebaseConfig.js file in order to do send and receive data from your database.
-After you setup the Firestore, you will be able to use db inside the Home.js file in order to add users.
+Setup the Firebase firestore and add your configs to the firebaseConfig.js file.
+After you setup the Firestore, you will be able to use `db` inside the `Home.js` file in order to communicate with your database.
 
 Inside the Home.js, create a form which takes 3 inputs
 
