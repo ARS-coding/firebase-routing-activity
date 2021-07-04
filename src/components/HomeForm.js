@@ -1,44 +1,33 @@
-import React, { useState } from 'react'
+import React from 'react'
 
-function HomeForm() {
-
-    const [formData, setFormData] = useState({
-        username: "",
-        email: "",
-        password: ""
-    });
-
-    function handleChange(event) {
-        setFormData({...formData, [event.target.name]: event.target.value});
-    };
+function HomeForm({ formData, handleFormSubmit, handleFormChange }) {
 
     return (
         <div className="home-form-wrapper">
-            <form>
+            <form onSubmit={handleFormSubmit}>
                 <input 
                     type="text"
                     name="username"
-                    onChange={handleChange} 
+                    onChange={handleFormChange} 
                     value={formData.username} 
                     placeholder="Username..."
                 />
                 <input 
                     type="Email"
                     name="email"
-                    onChange={handleChange}
+                    onChange={handleFormChange}
                     value={formData.email}
                     placeholder="Email..."
                 />
                 <input 
                     type="password" 
                     name="password" 
-                    onChange={handleChange}
+                    onChange={handleFormChange}
                     value={formData.password}
                     placeholder="Password..." 
                 />
                 <input
                     type="submit"
-                    onChange={handleChange}
                     value="Create Account"
                 />
             </form>
