@@ -28,7 +28,7 @@ function HomeForm({ formData, handleFormSubmit, handleFormChange }) {
                 />
                 <input
                     type="submit"
-                    value="Create Account"
+                    value="Create User"
                 />
             </form>
         </div>

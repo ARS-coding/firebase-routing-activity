@@ -1,6 +1,6 @@
 import React from "react";
 
-const User = ({userData, handleDeleteButtonClick}) => { // the id of each individual user on firestore is their username
+const User = ({ userData, handleDeleteButtonClick }) => { // the id of each individual user on firestore is their username
   return (
     <div className="user-wrapper">
       <p>{userData.username}</p>
@@ -10,6 +10,7 @@ const User = ({userData, handleDeleteButtonClick}) => { // the id of each indivi
         id={userData.username}
         onClick={handleDeleteButtonClick}
       >X</button>
+      <hr/>
     </div>
   );
 };
